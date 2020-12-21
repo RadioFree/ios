@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+target ‘RadioFree’ do
+    pod 'UIView+Shake', '~> 1.4'
+    pod "youtube-ios-player-helper", "~> 0.1.4"
+    pod 'StreamingKit', '~> 0.1'
+    pod 'AFNetworking', '~> 3.0'
+    pod 'OneSignal', '>= 2.6.2', '< 3.0'
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.6.2', '< 3.0'
+end
